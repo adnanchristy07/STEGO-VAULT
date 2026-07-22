@@ -1,0 +1,21 @@
+# Virtual Environment
+venv/
+
+# Python Cache
+__pycache__/
+*.pyc
+
+# Keys
+private_key.pem
+public_key.pem
+
+# VS Code
+.vscode/
+
+# Test Files
+*.log
+*.tmp
+
+# OS Files
+.DS_Store
+Thumbs.db
