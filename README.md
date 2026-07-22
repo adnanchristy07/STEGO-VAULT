@@ -1,12 +1,19 @@
-# STEGO-VAULT
-StegoVault – Secure File Steganography using Hybrid Encryption
+# StegoVault – Secure File Steganography using Hybrid Encryption
 
-Developed a Python-based tool to securely hide encrypted files inside PNG images using the Least Significant Bit (LSB) steganography technique.
+## Features
+- Hybrid encryption using RSA + AES (Fernet)
+- Secure file embedding into PNG images using LSB steganography
+- Support for any file type (e.g., PDF, EXE, TXT, DOCX)
+- Command-line interface for embedding and extraction
+- Modular Python architecture for encryption, image processing, and file handling
 
-Implemented hybrid encryption using RSA for secure key exchange and AES (Fernet) for file encryption and decryption.
+## Technologies Used
+- Python 3
+- Cryptography
+- Pillow
+- RSA
+- AES (Fernet)
+- LSB Steganography
 
-Built a command-line application to embed, extract, and recover encrypted files using the Pillow and Cryptography libraries.
-
-Organized the project into modular components for image processing, encryption, binary data handling, and file management.
-
-
+## Project Structure
+...
