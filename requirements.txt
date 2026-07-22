@@ -1,2 +1,4 @@
-Pillow
-cryptography
+cffi==2.1.0
+cryptography==49.0.0
+pillow==12.3.0
+pycparser==3.0
